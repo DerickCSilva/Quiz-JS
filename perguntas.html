@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Quiz</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="icon" href="imagens/icon_aba.png">
+	</head>
+	<body>
+		<div id="container">
+			<div id="topo">
+				<div id="area-quiz">
+					<p id="titulo-quiz">Quiz</p>
+					<div id="area-pergunta">
+						<div id="pergunta">1. Como declarar variável do tipo string no JavaScript?</div>
+						<img id="losango" src="imagens/losango.png">
+					</div>
+
+					<div id="area-respostas1" style="">
+						<button id="respA" class="respostas" onclick="conferirResposta('C', 1, 2)"><span id="A">A</span>var nome = "Maria";</button>
+						<button id="respB" class="respostas" onclick="conferirResposta('E', 1, 2)"><span id="B">B</span>char nome = "João";</button>
+						<button id="respC" class="respostas" onclick="conferirResposta('E', 1, 2)"><span id="C">C</span>string nome = "Pedro";</button>
+						<button id="respD" class="respostas" onclick="conferirResposta('E', 1, 2)"><span id="D">D</span>#define nome = "Roberta";</button>
+					</div>
+
+					<div id="area-respostas2">
+						<button id="respA" class="respostas" onclick="conferirResposta('E', 2, 3)"><span id="A">A</span>< javascript ></button>
+						<button id="respB" class="respostas" onclick="conferirResposta('E', 2, 3)"><span id="B">B</span>< js ></button>
+						<button id="respC" class="respostas" onclick="conferirResposta('C', 2, 3)"><span id="C">C</span>< script ></button>
+						<button id="respD" class="respostas" onclick="conferirResposta('E', 2, 3)"><span id="D">D</span>< scripting ></button>
+					</div>
+					
+					<div id="area-respostas3">
+						<button id="respA" class="respostas" onclick="conferirResposta('E', 3, 4)"><span id="A">A</span>< script name="script.js"></button>
+						<button id="respB" class="respostas" onclick="conferirResposta('E', 3, 4)"><span id="B">B</span>< script href="script.js"></button>
+						<button id="respC" class="respostas" onclick="conferirResposta('C', 3, 4)"><span id="C">C</span>< script src="script.js"></button>
+						<button id="respD" class="respostas" onclick="conferirResposta('E', 3, 4)"><span id="D">D</span>< script url="script.js"></button>
+					</div>
+					
+					<div id="area-respostas4">
+						<button id="respA" class="respostas" onclick="conferirResposta('E', 4, 5)"><span id="A">A</span>alertBox("Hello World");</button>
+						<button id="respB" class="respostas" onclick="conferirResposta('E', 4, 5)"><span id="B">B</span>msg("Hello World");</button>
+						<button id="respC" class="respostas" onclick="conferirResposta('E', 4, 5)"><span id="C">C</span>msgBox("Hello World");</button>
+						<button id="respD" class="respostas" onclick="conferirResposta('C', 4, 5)"><span id="D">D</span>alert("Hello World");</button>
+					</div>
+					
+					<div id="area-respostas5">
+						<button id="respA" class="respostas" onclick="conferirResposta('E', 5, 6)"><span id="A">A</span>function:myFunction() {}</button>
+						<button id="respB" class="respostas" onclick="conferirResposta('C', 5, 6)"><span id="B">B</span>function myFunction() {}</button>
+						<button id="respC" class="respostas" onclick="conferirResposta('E', 5, 6)"><span id="C">C</span>function = myFunction() {}</button>
+						<button id="respD" class="respostas" onclick="conferirResposta('E', 5, 6)"><span id="D">D</span>public void main(String args[]) {}</button>
+					</div>
+
+					<button id="resultado" onclick="mostrarResultado()" style="display: none;">Ver resultado</button>
+					<div id="area-texto">
+						<p id="acertos"></p>
+						<p id="texto"></p>
+					</div>
+					<a href="index.html" target="_blank"><button id="start" style="display: none;">Reiniciar</button></a>
+					
+				</div>
+			</div>
+		</div>			
+
+		<script src="js/script.js"></script>
+	</body>
+</html>

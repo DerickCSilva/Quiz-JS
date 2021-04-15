@@ -1,0 +1,201 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ccc;
+}
+
+#container {
+	width: 100%;
+	height: 625px;
+	margin: 0 auto;
+}
+
+#topo {
+	width: 100%;
+	height: 60px;
+	background: #2E2E2E;
+}
+
+#area-quiz {
+	width: 500px;
+	height: 450px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+
+#titulo-quiz {
+	font-size: 50px;
+	text-align: center;
+	color: #0080FF;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#area-pergunta {
+	width: 100%;
+	height: 60px;
+	background: #00B1FF;
+	position: relative;
+	top: 10px;
+}
+
+#pergunta {
+	width: 100%;
+	height: 30px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	color: white;
+	font-size: 22px;
+}
+
+#losango {
+	width: 50px;
+	position: relative;
+	top: 4px;
+	left: 25px;
+}
+
+#area-respostas1 {
+	position: relative;
+	top: 20px;
+	display: inline;
+}
+
+#area-respostas2 {
+	position: relative;
+	top: 20px; 
+	display: none;
+}
+
+#area-respostas3 {
+	position: relative;
+	top: 20px;
+	display: none;
+}
+
+#area-respostas4 {
+	position: relative;
+	top: 20px;
+	display: none;
+}
+
+#area-respostas5 {
+	position: relative;
+	top: 20px;
+	display: none;
+}
+
+.respostas {
+	width: 100%;
+	text-align: left;
+	margin-top: 20px;
+	padding: 9px 0 8px 0;
+	border: 2px solid #04B4AE;
+	border-radius: 10px;
+	color: black;
+	font-size: 20px;
+}
+
+#respA #A,
+#respB #B,
+#respC #C,
+#respD #D {
+	color: white;
+	padding: 10px;
+	background: #00B1FF;
+	margin-right: 20px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+#respA #A:hover,
+#respB #B:hover,
+#respC #C:hover,
+#respD #D:hover {
+	background: #2ECC71;
+}
+
+.respostas:hover {
+	color: #2ECC71;
+	font-style: italic;
+	font-weight: bold;
+	cursor: grab;
+}
+
+.respostas:active {
+	color: #2ECC71;
+	cursor: grabbing;
+}
+
+
+/*START*/
+#bem-vindo {
+	text-align: center;
+	height: 30px;
+	position: relative;
+	top: 15px;
+	color: white;
+	font-size: 25px;
+}
+
+#start {
+	width: 200px;
+	height: 50px;
+	position: relative;
+	left: 150px;
+	top: 75px;
+	font-size: 30px;
+	color: white;
+	background: #088A08;
+	border: none;
+}
+
+#start:hover,
+#resultado:hover {
+	background: white;
+	color: #088A08;
+	border: 2px solid #088A08;
+}
+
+/*RESULTADO*/
+#resultado {
+	width: 200px;
+	height: 50px;
+	position: relative;
+	left: 150px;
+	top: 75px;
+	bottom: 30px;
+	font-size: 30px;
+	color: white;
+	background: #088A08;
+	border: none;
+}
+
+#acertos {
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+}
+
+#texto {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+}
+
+#area-texto {
+	width: 100%;
+	height: 120px;
+	border: 1px solid black;
+	display: none;
+	position: relative;
+	top: 50px;
+}
