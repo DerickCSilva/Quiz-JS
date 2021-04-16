@@ -13,6 +13,24 @@ body {
 	margin: 0 auto;
 }
 
+#feito-por {
+	float: left;
+	width: 23%;
+	height: 55px;
+	text-align: center;
+	position: relative;
+	border-radius: 10px;
+	left: 50px;
+	top: 270px;
+	font-size: 40px;
+ 	font-family: 'Brush Script MT', cursive;
+}
+
+#nome {
+ 	font-family: 'Brush Script MT', cursive;
+	text-decoration: underline;
+}
+
 #topo {
 	width: 100%;
 	height: 60px;
